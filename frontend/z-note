@@ -1,0 +1,7 @@
+const str: string = "asdasd";
+const num: number = 18;
+const bool: boolean = true;
+const obj: object = {};
+const obj1: { [name: string]: string } = {};
+const obj2: Record<string, number> = { age: 18 };
+const arr: string[] = ["", ""];
