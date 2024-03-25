@@ -7,7 +7,7 @@ import Link from "@mui/material/Link";
 
 const Footer = () => {
   return (
-    <div className="w-[2240px] h-[650px] bg-[#18BA51] relative">
+    <div className="w-[2240px] h-[650px] bg-[#18BA51] relative flex items-center justify-center">
       <img src="Footer.png" alt="" className="h-[650px] w-[2240px]" />
       <div className="flex flex-col absolute bottom-[100px] left-[180px] w-[1880px] h-[350px] gap-10 items-center">
         <Stack

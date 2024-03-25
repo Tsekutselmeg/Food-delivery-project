@@ -35,7 +35,7 @@ const Last = () => {
               fontWeight: "700",
             }}
           >
-            Салад ба зууш
+            Амттан
           </Box>
         </Stack>
         <Stack
@@ -67,7 +67,11 @@ const Last = () => {
           }}
         >
           <img src="Cake.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -83,7 +87,7 @@ const Last = () => {
                 fontWeight: 600,
               }}
             >
-              54,800₮
+              14,800₮
             </Box>
           </Stack>
         </Stack>
@@ -93,7 +97,11 @@ const Last = () => {
           }}
         >
           <img src="Shake.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -120,7 +128,11 @@ const Last = () => {
           }}
         >
           <img src="Chocolate.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -147,7 +159,11 @@ const Last = () => {
           }}
         >
           <img src="Yogurt.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",

@@ -1,6 +1,7 @@
 "use client";
 import { MouseEvent, useState } from "react";
-import { Details } from "@/components/Modals";
+// import { Details } from "./Modal";
+// import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Button from "@mui/material/Button";
 import { Stack, Box } from "@mui/material";
 import Image from "next/image";
@@ -83,7 +84,7 @@ export const Food = ({ foods }: AllFoodsProps) => {
               justifyContent: "center",
             }}
           >
-            <Image alt="" src="/Star1.png" width={40} height={40} />
+            <Image alt="" src="/Star 1.png" width={40} height={40} />
           </Box>
           <Box
             sx={{
@@ -108,6 +109,8 @@ export const Food = ({ foods }: AllFoodsProps) => {
           onClick={handleMore}
         >
           {moreButton ? `See all ${"    "} >` : `< ${"     "} Undo`}
+
+          {/* <ArrowForwardIosIcon /> */}
         </Box>
       </Stack>
       <Stack
@@ -130,6 +133,7 @@ export const Food = ({ foods }: AllFoodsProps) => {
           </div>
         ))}
       </Stack>
+
       <Modal open={open} onClose={handleClose}>
         <div style={style}>
           <Stack direction="row" sx={{ padding: "10px" }}>
@@ -174,6 +178,7 @@ export const Food = ({ foods }: AllFoodsProps) => {
                   style={{
                     fontSize: "29px",
                     fontFamily: "sans-serif",
+
                     color: "#18BA51",
                   }}
                 >

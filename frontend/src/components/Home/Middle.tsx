@@ -68,7 +68,11 @@ const Middle = () => {
           }}
         >
           <img src="Chicken.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -94,7 +98,11 @@ const Middle = () => {
           }}
         >
           <img src="Lunch.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -120,8 +128,12 @@ const Middle = () => {
             flexDirection: "column",
           }}
         >
-          <img src="Sandwich.png" alt="" />
-          <Stack>
+          <img src="Image4.png" alt="" />
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -148,7 +160,11 @@ const Middle = () => {
           }}
         >
           <img src="Apple-pie.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",

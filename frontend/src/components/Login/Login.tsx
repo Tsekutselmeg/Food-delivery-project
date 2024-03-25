@@ -22,7 +22,7 @@ const Login = () => {
   const handlePush = () => {
     push("/Signup");
   };
-  const handleCPush = () => {
+  const handleC = () => {
     push("/Home");
   };
   const [showPassword, setShowPassword] = React.useState(false);
@@ -114,7 +114,7 @@ const Login = () => {
         }}
       >
         <Button
-          onClick={() => handleCPush()}
+          onClick={() => handleC()}
           sx={{
             width: "384px",
             height: "48px",

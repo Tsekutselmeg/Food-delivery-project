@@ -2,6 +2,7 @@ import { Stack, Box } from "@mui/material";
 import Main from "@/components/Home/Main";
 import Middle from "@/components/Home/Middle";
 import Last from "@/components/Home/Last";
+import Asia from "./Asia";
 
 const Home = () => {
   return (
@@ -20,7 +21,6 @@ const Home = () => {
         sx={{
           padding: "80px 120px 80px 120px",
           display: "flex",
-          // flexDirection: "row",
           justifyContent: "center",
           gap: "80px",
         }}
@@ -132,6 +132,7 @@ const Home = () => {
           </Stack>
         </Stack>
         <Main />
+        <Asia />
         <Middle />
         <Last />
       </Stack>

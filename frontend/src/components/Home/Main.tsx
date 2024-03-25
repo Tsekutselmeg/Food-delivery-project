@@ -19,7 +19,6 @@ const Main = () => {
           gap: "10px",
           width: "2040px",
           padding: "40px 180px 40px 180px",
-          //   border: "1px solid black",
         }}
       >
         <Stack
@@ -66,10 +65,19 @@ const Main = () => {
           sx={{
             display: "flex",
             flexDirection: "column",
+            gap: "14px",
           }}
         >
-          <img src="Image.png" alt="" />
-          <Stack>
+          <img
+            src="Pizza.png"
+            alt=""
+            className="w-[286px] h-[200px] rounded-xl"
+          />
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -89,14 +97,13 @@ const Main = () => {
             </Box>
           </Stack>
         </Stack>
-        <Stack
-          sx={{
-            display: "flex",
-            // border: "1px solid black",
-          }}
-        >
+        <Stack>
           <img src="Pie.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -123,7 +130,11 @@ const Main = () => {
           }}
         >
           <img src="Image2.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",
@@ -150,7 +161,11 @@ const Main = () => {
           }}
         >
           <img src="Image3.png" alt="" />
-          <Stack>
+          <Stack
+            sx={{
+              paddingLeft: "10px",
+            }}
+          >
             <Box
               sx={{
                 fontSize: "18px",

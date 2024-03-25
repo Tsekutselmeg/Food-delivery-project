@@ -1,10 +1,14 @@
 "use client";
 import React from "react";
 import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import { Button, Stack } from "@mui/material";
+import { useRouter } from "next/navigation";
 
 export const HeaderLeft = () => {
+  const { push } = useRouter();
+  const handlePush = () => {
+    push("/Menu");
+  };
   return (
     <Grid
       container
@@ -49,7 +53,7 @@ export const HeaderLeft = () => {
                 justifyContent: "center",
                 fontSize: "14px",
                 fontWeight: "600",
-                color: "#18BA51",
+                color: "#000",
               }}
             >
               Нүүр
@@ -57,6 +61,7 @@ export const HeaderLeft = () => {
           </Grid>
           <Grid>
             <Button
+              onClick={() => handlePush()}
               variant="text"
               sx={{
                 width: "134px",
